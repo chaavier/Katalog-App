@@ -1,0 +1,126 @@
+
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #FAF6F2;
+}
+
+.header {
+    -fx-padding: 20 24;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: transparent transparent #F3DCE0 transparent;
+    -fx-border-width: 0 0 1.5 0;
+}
+
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #233D26;
+}
+
+.label {
+    -fx-text-fill: #2D3B2E;
+    -fx-font-weight: bold;
+}
+
+.muted {
+    -fx-text-fill: #6B7268;
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+}
+
+/* Input TextField & ComboBox */
+.text-field, .combo-box {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #233D26;
+    -fx-prompt-text-fill: #98A196;
+    -fx-padding: 8 12;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #D5E0D2;
+    -fx-border-width: 1.5;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #E05A7A;
+    -fx-effect: dropshadow(gaussian, rgba(224, 90, 122, 0.18), 8, 0, 0, 0);
+}
+
+/* Tombol Simpan (Ceremonial Matcha) */
+.button-primary {
+    -fx-background-color: #4A7C44;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-padding: 10 24;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #3B6536;
+}
+
+.button-primary:pressed {
+    -fx-background-color: #2E502A;
+}
+
+/* Area Katalog & Kartu Produk */
+.katalog {
+    -fx-padding: 20 24;
+}
+
+.kartu-produk {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 14;
+    -fx-border-radius: 14;
+    -fx-border-color: #E4ECE1;
+    -fx-border-width: 1;
+    -fx-padding: 16;
+    -fx-effect: dropshadow(gaussian, rgba(35, 61, 38, 0.06), 12, 0, 0, 4);
+}
+
+.nama-produk {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #233D26;
+}
+
+/* Tombol Edit (Soft Matcha-Cream Pill) */
+.button-edit {
+    -fx-background-color: #E7F1E5;
+    -fx-text-fill: #244721;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 14;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #B7D1B2;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.button-edit:hover {
+    -fx-background-color: #D5E7D2;
+}
+
+/* Tombol Hapus (Soft Strawberry-Milk Pill) */
+.button-hapus {
+    -fx-background-color: #FCE8ED;
+    -fx-text-fill: #9E2242;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 6 14;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #F2B8C6;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.button-hapus:hover {
+    -fx-background-color: #F7D1DB;
+}
+
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
