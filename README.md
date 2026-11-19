@@ -56,11 +56,20 @@ Aplikasi desktop katalog produk berbasis **JavaFX**, **Maven**, dan **SQLite**. 
 
 ## Screenshot
 
-![Halaman Katalog Produk](screenshots/katalog.png)
+<p align="center">
+  <img src="screenshots/katalog.png" alt="Halaman Katalog Produk" width="700"><br>
+  <em>Gambar 1. Halaman katalog dengan form tambah produk.</em>
+</p>
 
-![Mode Edit pada Kartu Produk](screenshots/edit.png)
+<p align="center">
+  <img src="screenshots/edit.png" alt="Mode Edit" width="700"><br>
+  <em>Gambar 2. Mode edit langsung pada produk.</em>
+</p>
 
-![Halaman Konfirmasi Penghapusan Produk](screenshots/konfirmasi.png)
+<p align="center">
+  <img src="screenshots/konfirmasi.png" alt="Halaman Konfirmasi Hapus Produk" width="700"><br>
+  <em>Gamber 3. Halaman konfirmasi saat menghapus produk.</em>
+</p>
 
 ## Struktur Database
 
