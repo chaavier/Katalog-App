@@ -62,12 +62,12 @@ Aplikasi desktop katalog produk berbasis **JavaFX**, **Maven**, dan **SQLite**. 
 </p>
 
 <p align="center">
-  <img src="screenshots/edit.png" alt="Mode Edit" width="700"><br>
+  <img src="screenshots/edit.png" alt="Mode Edit" width="300"><br>
   <em>Gambar 2. Mode edit langsung pada produk.</em>
 </p>
 
 <p align="center">
-  <img src="screenshots/konfirmasi.png" alt="Halaman Konfirmasi Hapus Produk" width="700"><br>
+  <img src="screenshots/konfirmasi.png" alt="Halaman Konfirmasi Hapus Produk" width="450"><br>
   <em>Gamber 3. Halaman konfirmasi saat menghapus produk.</em>
 </p>
 
