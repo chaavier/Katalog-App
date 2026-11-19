@@ -1,6 +1,6 @@
 # Katalog Produk App
 
-Aplikasi desktop katalog produk berbasis **JavaFX**, **Maven**, dan **SQLite**. Pengguna dapat menambahkan produk beserta foto, melihatnya dalam bentuk kartu katalog, mengubah data langsung di kartu, dan menghapusnya. Data tersimpan permanen di database SQLite, sehingga tidak hilang saat aplikasi ditutup.
+Aplikasi desktop katalog produk berbasis **JavaFX**, **Maven**, dan **SQLite**. Pengguna dapat menambahkan produk, melihatnya dalam bentuk kartu katalog, mengedit data langsung di kartu, dan menghapusnya. Data tersimpan permanen di database SQLite, sehingga tidak hilang saat aplikasi ditutup. Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Lanjut.
 
 ## Fitur Utama
 
@@ -16,19 +16,12 @@ Aplikasi desktop katalog produk berbasis **JavaFX**, **Maven**, dan **SQLite**. 
   - Aturan yang sama juga dijaga di tingkat database lewat `CHECK` constraint.
   - Kesalahan database (`SQLException`) ditampilkan sebagai pesan singkat di layar, dan rinciannya dicetak di jendela Output.
 
-## Teknologi
+## Kebutuhan & Teknologi
 
-- Java 17 dan JavaFX 21 (`javafx-controls`, `javafx-fxml`)
-- Maven (dengan `javafx-maven-plugin`)
-- SQLite lewat JDBC (`sqlite-jdbc` 3.49.1.0)
-- CSS untuk tampilan (`app.css`)
-- Apache NetBeans IDE
-
-## Kebutuhan
-
-- JDK 17 atau lebih baru
-- Apache NetBeans IDE (sudah termasuk Maven)
-- Koneksi internet saat build pertama, agar Maven mengunduh dependensi JavaFX dan SQLite
+- **Bahasa & Framework:** Java 17 (JDK 17 atau lebih baru), JavaFX 21 (`javafx-controls`, `javafx-fxml`)
+- **Database:** SQLite via JDBC (`sqlite-jdbc` 3.49.1.0)
+- **Tampilan:** CSS (`app.css`)
+- **Build & IDE:** Apache NetBeans IDE (sudah termasuk Maven dengan `javafx-maven-plugin`)
 
 ## Cara Menjalankan
 
